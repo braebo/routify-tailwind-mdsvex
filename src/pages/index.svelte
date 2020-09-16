@@ -1,0 +1,1 @@
+<h1>The ultimate Svelte starter template</h1>

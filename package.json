@@ -1,0 +1,35 @@
+{
+  "name": "svite-example-routify-mdsvex-typescript",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "run-s build:routify build:svite",
+    "build:routify": "routify run -b",
+    "build:svite": "svite build -ts",
+    "dev": "run-p dev:routify dev:svite",
+    "dev:routify": "routify run",
+    "dev:svite": "svite -ts",
+    "validate": "svelte-check && tsc --noEmit"
+  },
+  "dependencies": {
+    "@roxi/routify": "^2.0.2",
+    "svelte": "3.24.1",
+    "svelte-hmr": "0.10.3"
+  },
+  "devDependencies": {
+    "@tsconfig/svelte": "^1.0.10",
+    "@types/postcss-import": "^12.0.0",
+    "@types/postcss-load-config": "^2.0.1",
+    "mdsvex": "^0.8.7",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^7.0.32",
+    "postcss-import": "^12.0.1",
+    "postcss-load-config": "^2.1.0",
+    "postcss-preset-env": "^6.7.0",
+    "svelte-check": "^1.0.36",
+    "svelte-preprocess": "4.2.1",
+    "svite": "latest",
+    "tailwindcss": "^1.8.3",
+    "tslib": "^2.0.1",
+    "typescript": "^4.0.2"
+  }
+}
