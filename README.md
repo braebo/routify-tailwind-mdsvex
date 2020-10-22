@@ -1,14 +1,28 @@
 # Routify 2.0 Template
 
-Just uploading this for a few people who asked for it.
-
-Configured to work with:
+### Features:
 
 - TailwindCSS
 - Typescript
 - PostCSS
 - MDSvex
 - Svite
+
+---
+
+Setup
+
+```bash
+npx degit FractalHQ/routify-ts-tailwind routify-tailwind
+```
+
+Install
+
+```bash
+cd routify-tailwind && yarn && yarn dev
+```
+
+---
 
 Also includes a local font as an example.
 
