@@ -18,10 +18,9 @@
   }
   main {
     margin: 0 auto;
-    max-width: 1280px;
   }
   footer {
-    @apply flex items-center content-center mt-1 border-t-4 border-gray-700
+    @apply flex items-center content-center border-t-4 border-gray-700;
   }
 </style>
 

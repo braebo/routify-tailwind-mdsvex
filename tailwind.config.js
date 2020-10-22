@@ -1,6 +1,11 @@
 module.exports = {
   purge: process.env.NODE_ENV === 'production' && {
-    content: ['./src/**/*.svelte', './src/**/*.html', './src/**/*.css', './index.html'],
+    content: [
+      './src/**/*.svelte',
+      './src/**/*.html',
+      './src/**/*.css',
+      './index.html',
+    ],
     options: {
       whitelistPatterns: [/svelte-/],
       defaultExtractor: (content) => {
@@ -20,12 +25,18 @@ module.exports = {
     },
   },
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        quicksand: 'Quicksand_VF[wght].ttf',
+      },
+    },
   },
   variants: {},
   plugins: [],
   future: {
     removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true
+    purgeLayersByDefault: true,
+    defaultLineHeights: true,
+    standardFontWeights: true,
   },
 };

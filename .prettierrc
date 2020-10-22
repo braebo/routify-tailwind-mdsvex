@@ -1,5 +1,5 @@
-svelteSortOrder: "scripts-markup-styles",
-singleQuote: true,
-# printWidth: 80,
-semi: true,
-tabWidth: 4
+{
+    "svelteSortOrder": "scripts-markup-styles",
+    "singleQuote": true,
+    "semi": true
+}
