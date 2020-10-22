@@ -1,15 +1,12 @@
 const path = require('path');
 const { mdsvex } = require('mdsvex');
-const { postcss, sass, pug } = require('svelte-preprocess');
+const { postcss } = require('svelte-preprocess');
 const sveltePreprocess = require('svelte-preprocess');
 
 module.exports = {
   extensions: ['.svelte', '.svx', '.md'],
   preprocess: [
-    // typescript(),
-    sveltePreprocess({
-      pug: true,
-    }),
+    sveltePreprocess(),
     mdsvex({
       layout: {
         primary: path.join(__dirname, 'src', 'layouts', 'Primary.svelte'),
@@ -19,6 +16,5 @@ module.exports = {
       extensions: ['.md', '.svx'],
     }),
     postcss(),
-    sass(),
   ],
 };
