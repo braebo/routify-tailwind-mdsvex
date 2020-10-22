@@ -1,0 +1,19 @@
+{
+    "recommendations": [
+        "svelte.svelte-vscode",
+        "steoates.autoimport",
+        "formulahendry.auto-rename-tag",
+        "aaron-bond.better-comments",
+        "coenraads.bracket-pair-colorizer-2",
+        "naumovs.color-highlight",
+        "bierner.markdown-checkbox",
+        "equinusocio.moxer-icons",
+        "equinusocio.moxer-theme",
+        "esbenp.prettier-vscode",
+        "syler.sass-indented",
+        "bradlc.vscode-tailwindcss",
+        "arthie.vscode-tailwindcssinjs",
+        "wayou.vscode-todo-highlight",
+        "ms-vscode.vscode-typescript-tslint-plugin",
+    ]
+}

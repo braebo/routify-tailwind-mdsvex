@@ -1,6 +1,7 @@
-.vscode
 .idea
 node_modules
 dist
 dist-ssr
 .routify
+yarn.lock
+yarn-error.log

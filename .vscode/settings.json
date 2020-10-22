@@ -1,0 +1,9 @@
+{
+    "[svelte]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "favorites.resources": ["src/pages/_layout.svelte"],
+    "workbench.colorTheme": "Moxer",
+    "workbench.iconTheme": "moxer-icons",
+    "css.fileExtensions": ["css", "scss", "sass", "svelte"]
+}
